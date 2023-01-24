@@ -1,0 +1,15 @@
+var Sasuke={
+      "name":"Ponyoo",
+      "age":"23",
+      "Dob":"16.09.1999",
+      "Favfood":["briyani","parotta","chicken rice","ice cream","chizza"]
+      
+  }
+       
+         Favfood=["briyani","parotta","chicken rice","ice cream","chizza"];
+         for (var i=0; i<Favfood.length; i++){
+             console.log(Favfood[i])
+     }
+         for (var x in Sasuke){
+         console.log(Sasuke[x])
+  } 
