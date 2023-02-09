@@ -1,4 +1,4 @@
-1.
+
 class Movie {
     constructor(title, studio, rating = "PG") {
         this.title = title;
@@ -19,8 +19,7 @@ let e = new Movie("Vaathi", "Aish productions", "G");
 
 console.log(Movie.getPG([a, b, c, d, e]));
 
-
-2.var Circle = /** @class */ (function () {
+var Circle = /** @class */ (function () {
     function Circle(radius, color) {
         this.radius = 1.0;
         this.color = "Red";
