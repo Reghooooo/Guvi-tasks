@@ -1,5 +1,4 @@
 
- 1.
 
 var obj1 = { name: "Person1", age:5 };
 var obj2 = { age:5, name: "Person 1" };
@@ -13,8 +12,7 @@ if (str1 === str2) {
   console.log("The objects have different properties.");
 }
 
-2. 
-let request =new XMLHttpRequest();
+let request1 =new XMLHttpRequest();
 
 request.open("GET","https://restcountries.com/v3.1/all",true);
 
@@ -31,8 +29,6 @@ console.log(`${element.flag} :`)
 });
 
 }
-
- 3.
 
 let request =new XMLHttpRequest();
 
